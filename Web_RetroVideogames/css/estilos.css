@@ -1,0 +1,287 @@
+@font-face {
+    font-family: lightfont;
+    src: url(../fonts/lightfont.ttf);
+}
+
+@font-face {
+    font-family: back;
+    src: url(../fonts/back.ttf);
+}
+
+@font-face {
+    font-family: roboto-medium;
+    src: url(../fonts/roboto-medium.ttf);
+}
+
+@font-face {
+    font-family: roboto-black;
+    src: url(../fonts/roboto-black.ttf);
+}
+
+@font-face {
+    font-family: roboto-regular;
+    src: url(../fonts/roboto-regular.ttf);
+}
+
+@font-face {
+    font-family: roboto-light;
+    src: url(../fonts/roboto-light.ttf);
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+
+}
+
+.logo {
+    margin-left: -0px;
+}
+
+.links-header {
+    margin-right: 10px;
+    font-family: 'Bungee Inline';
+    font-size: 15px;
+    margin: 0px;
+}
+
+.div-ini {
+    margin-bottom: 15px;
+}
+
+.div-nav {
+    margin-left: 20px;
+    z-index: 10px;
+}
+
+
+
+.foto-ini {
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.texto-encima {
+    font-family: back;
+    font-size: calc(1rem + 1vw);
+    z-index: 1;
+    color: white;
+    width: 100px;
+    position: absolute;
+    text-align: center;
+    margin-top: 20%;
+}
+
+footer {
+    background-color: rgb(52, 58, 64);
+}
+
+.div-icons {
+    margin: 20px;
+}
+
+.footer-copyright {
+    background-color: rgb(30, 40, 45);
+    color: darkgrey;
+}
+
+.social-icon {
+    margin-top: 28%;
+}
+
+.facebook,
+.twitter,
+.google,
+.linkedin,
+.youtube {
+    background-color: rgb(30, 40, 45);
+    width: 40px;
+    height: 40px;
+}
+
+.facebook:hover {
+    background-color: #3b5998;
+    width: 40px;
+    height: 40px;
+    transition: 0.4s;
+}
+
+.twitter:hover {
+    background-color: #00aced;
+    width: 40px;
+    height: 40px;
+    transition: 0.4s;
+}
+
+.google:hover {
+    background-color: #d34836;
+    width: 40px;
+    height: 40px;
+    transition: 0.4s;
+}
+
+.linkedin:hover {
+    background-color: #0077b5;
+    width: 40px;
+    height: 40px;
+    transition: 0.4s;
+}
+
+.youtube:hover {
+    background-color: #ff0000;
+    width: 40px;
+    height: 40px;
+    transition: 0.4s;
+}
+
+.links-header:hover {
+    background-color: #e84118;
+    border-radius: 10px;
+    transition: 0.6s;
+    width: auto;
+    height: 38px;
+    padding-left: 15px;
+}
+
+.p-footer {
+    color: white;
+    text-align: center;
+    font-family: roboto-medium;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-bottom: -10px;
+}
+
+.active {
+    font-family: roboto-black;
+}
+
+.bread-inactive {
+    font-size: 14px;
+}
+
+.margin-breadcumb {
+    margin-left: 1.7%;
+}
+
+.contenido-sala1 {
+    background-image: url("../imagenes/modern-arcade.png");
+    background-size: cover;
+    background-position: center;
+    border-top-color: rgb(0, 205, 252);
+    border-top-style: solid;
+    border-top-width: 2px;
+}
+
+.titulo-sala {
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    margin-top: 15px;
+}
+
+.p-sala1 {
+    text-align: center;
+    color: rgb(0, 205, 252);
+    margin-bottom: -7px;
+    margin-top: 20px;
+}
+
+.p-sala2 {
+    text-align: center;
+    color: rgb(0, 252, 130);
+    margin-bottom: -7px;
+    margin-top: 20px;
+}
+
+.h1-sala {
+    text-align: center;
+    color: white;
+    font-size: 28px;
+}
+
+.ul-sala1 {
+    column-count: 2;
+    list-style: none;
+    color: white;
+    font-size: 14px;
+    font-family: roboto-light;
+}
+
+.ul-sala1 li::before {
+    font-size: 22px;
+    content: "\25A0";
+    color: rgb(0, 205, 252);
+    display: inline-block;
+    width: 25px;
+}
+
+.ul-sala2 {
+    column-count: 2;
+    list-style: none;
+    color: white;
+    font-size: 14px;
+    font-family: roboto-light;
+}
+
+.ul-sala2 li::before {
+    font-size: 22px;
+    content: "\25A0";
+    color: rgb(0, 252, 130);
+    display: inline-block;
+    width: 25px;
+}
+
+.contenido-sala2 {
+    background-image: url("../imagenes/classic-arcade.png");
+    background-size: cover;
+    background-position: center;
+    border-top-color: rgb(0, 252, 130);
+    border-top-style: solid;
+    border-top-width: 2px;
+}
+
+.div-salas {
+    background-color: rgb(26, 26, 26);
+    display: inline-flex;
+    font-family: roboto-regular;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
+    display: flex;
+}
+
+.li-salas {
+    padding-bottom: 7px;
+}
+
+.footer-index {
+    margin-top: 1.2%;
+}
+
+.relleno-salas {
+    background-color: rgb(26, 26, 26);
+}
+
+.p-footer2 {
+    font-family: Montserrat;
+    color: white
+}
+
+.tooltip > .tooltip-inner {
+    background-color: orange;
+    font-weight: bold;
+}
+
+.tooltip.bs-tooltip-top .arrow:before {
+    border-top-color: orange !important;
+}
+
+.tooltip.bs-tooltip-bottom .arrow:before {
+    border-bottom-color: orange !important;
+}
+

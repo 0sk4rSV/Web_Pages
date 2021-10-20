@@ -1,0 +1,60 @@
+.fondo-bg {
+    background-image: url(/imagenes/fondo-bgtime.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.txt-intro {
+    color: white;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 15px;
+}
+
+
+.div-herramientas {
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.color-fondo {
+    background-color: rgb(26, 26, 26);
+}
+
+.tooltip.bs-tooltip-top .arrow:before {
+    border-top-color: orange !important;
+}
+
+.tooltip.bs-tooltip-bottom .arrow:before {
+    border-bottom-color: orange !important;
+}
+
+.more {
+    cursor: pointer;
+    background-color: #ccf;
+}
+
+.complete {
+    display: none;
+}
+
+.fondo-cards {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.separador {
+    background-color: orange;
+    height: 2px;
+}
+
+.card img{
+    width: 50%;
+    margin-left: 25%;
+}
+
+.card p {
+    text-align: justify;
+    font-family: Sarala;
+    font-size: 14px;
+}

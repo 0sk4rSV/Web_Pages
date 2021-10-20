@@ -1,0 +1,107 @@
+.txt-intro {
+    color: white;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 15px;
+}
+
+.img-mural {
+    background-image: url(/imagenes/fondo-qs.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.p-intro {
+    text-align: justify;
+}
+
+.color-fondo {
+    background-color: rgb(26, 26, 26);
+}
+
+.descripcion {
+    text-align: justify;
+    margin-top: 0px;
+    border-color: #f8d616;
+    border-top-style: solid;
+    border-top-width: 2px;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    box-shadow: 0 5px 5px 3px rgba(0, 0, 0, 0.25);
+}
+
+.div-info2 {
+    margin-top: 2.1%;
+}
+
+.img-info2 {
+    margin-top: 5.5%;
+}
+
+.div-info3 {
+    margin-top: 1.6%;
+}
+
+.img-info3 {
+    margin-top: 4.5%;
+}
+
+.tooltip > .tooltip-inner {
+    background-color: orange;
+    font-weight: bold;
+}
+
+.tooltip.bs-tooltip-top .arrow:before {
+    border-top-color: orange !important;
+}
+
+.tooltip.bs-tooltip-bottom .arrow:before {
+    border-bottom-color: orange !important;
+}
+
+
+
+
+
+#boton-sus {
+    height: 40px;
+    margin-top: 3%;
+    color: black;
+    margin-bottom: 3%;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgb(26, 26, 26);
+    
+}
+
+
+#boton-sus:hover{ 
+    background-color: black;
+    border-color: rgb(248, 214, 22);
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+}
+
+#boton-sus a{
+    color: white;
+    text-decoration: none;
+    font-family: Montserrat;
+}
+
+
+
+.suscripcion {
+    margin-top: 4%;
+    margin-bottom: 2%;
+    background-color: black;
+}
+
+.h4-sus {
+    padding-top: 3.5%;
+}
+
+.txt-boton-sus {
+    margin-top: 2%;
+}

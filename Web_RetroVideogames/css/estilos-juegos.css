@@ -1,0 +1,64 @@
+.txt-intro {
+    color: white;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 15px;
+}
+
+.img-mural {
+    background-image: url(/imagenes/fondo-juegos.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.p-intro {
+    text-align: justify;
+}
+
+.color-fondo {
+    background-color: rgb(26, 26, 26);
+}
+
+.oro {
+    background-color: rgba(239, 184, 16, 0.2);
+}
+
+.plata {
+    background-color: rgba(138, 149, 151, 0.2);
+}
+
+.bronce {
+    background-color: rgba(205, 127, 50, 0.2);
+}
+
+.div-juegos {
+    border-color: #850d0d;
+    border-top-style: solid;
+    border-top-width: 2px;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 5px 5px 3px rgba(0, 0, 0, 0.25);
+}
+
+.cuadricula-juegos {
+    margin-bottom: 3%;
+}
+
+.tooltip > .tooltip-inner {
+    background-color: orange;
+    font-weight: bold;
+}
+
+.tooltip.bs-tooltip-top .arrow:before {
+    border-top-color: orange !important;
+}
+
+.tooltip.bs-tooltip-bottom .arrow:before {
+    border-bottom-color: orange !important;
+}
+
+#h5-juegos {
+    margin-bottom: 1.8%
+}
