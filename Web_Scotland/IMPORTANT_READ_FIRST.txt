@@ -1,0 +1,3 @@
+This is my first website.
+It is NOT responsive and lacks frameworks like Bootstrap.
+It is designed for a resolution of 1920*1080 (you must have your browser zoomed to the default value of 100%).

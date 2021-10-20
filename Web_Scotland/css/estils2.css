@@ -1,0 +1,155 @@
+@font-face {
+    font-family: eveleth;
+    src: url(../fonts/evelethslantregularbold.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.dos-contenedores {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.p-edim {
+    font-family: 'Sarala', sans-serif;
+}
+
+.descripcion-edim {
+    width: 508px;
+    margin-top: 20px;
+    text-align: justify
+}
+
+.descripcion-high {
+    width: 508px;
+    margin-top: 20px;
+    text-align: justify
+}
+
+.p-high {
+    font-family: 'Sarala', sans-serif;
+}
+
+.h1-cont {
+    border-bottom: solid black;
+    font-family: eveleth;
+}
+
+
+
+.contenedor1 {
+    align-self: flex-start;
+}
+
+.collapsible {
+    color: black;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 12px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    margin-top: -10px;
+    width: 130px;
+    margin-bottom: 30px;
+    font-size: 13px;
+}
+
+}
+
+.active,
+.collapsible:hover {
+    color: black;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.content {
+    display: none;
+    overflow: hidden;
+}
+
+.resaltado {
+    font-size: 19.20px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.resaltado span {
+    border-bottom: solid black;
+}
+
+.p-leermas {
+    font-family: 'Sarala', sans-serif;
+    font-size: 14px;
+}
+
+.contenedor2 {
+    align-self: flex-start;
+}
+
+.resaltado span {
+    border-bottom: solid black;
+}
+
+.lago {
+    width: 508px;
+    height: 290px;
+}
+
+.stirling {
+    width: 508px;
+    height: 290px;
+}
+
+
+
+.arregloLM {
+    margin-top: 95px;
+}
+
+.arregloLM1 {
+    margin-top: 42px;
+}
+
+.arregloLM2 {
+    margin-top: 42.5px;
+}
+
+.line-bottom {
+    padding-bottom: 30px;
+    border-bottom: solid 1px;
+    border-bottom-color: #e7a61a;
+}
+
+.line-top {
+    padding-top: 30px;
+    border-top: solid 1px;
+    border-top-color: #e7a61a;
+}
+
+.ult-p {
+    padding-bottom: 50px;
+}
+
+.maps {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.iframe-maps {
+    width: 85%;
+    z-index: 1;
+}
+
+.espaciado2 {
+    margin-bottom: -100px;
+}
